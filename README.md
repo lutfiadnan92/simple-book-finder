@@ -7,4 +7,5 @@ Pencarian buku sederhana
 - run npm run dev
 
 ## menggunakan docker
-- docker run -d -p 3000:3000 
+- run docker build -t reactjs/simple-book-finder:1.0.0 .
+- run docker run -d -p 3000:3000 reactjs/simple-book-finder:1.0.0
